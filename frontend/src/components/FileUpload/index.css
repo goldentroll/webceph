@@ -1,0 +1,22 @@
+
+.preview_image_div{
+  height: 300px;
+  border: 1px dotted #b3afaf;
+  display: flex;
+  justify-content: center;
+}
+.preview_image_div > img{
+  height: 100%;
+}
+
+input[name=attachment] {
+  display:inline-block;
+  background: wheat;
+  position:absolute;
+  top: 0;
+  left: 0;
+  opacity:0.4;
+  font-size: 0px;
+  cursor: pointer;
+  z-index:0;
+}

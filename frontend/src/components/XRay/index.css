@@ -1,0 +1,29 @@
+
+.edit-image-panel-xray{
+  height: 650px!important;
+}
+.edit-image-panel-xray > img {
+  height: 100%;
+}
+.image-editor-canvas-xray{
+  width: 656px;
+  height: 650px;
+  background-size: auto 100%;
+  /* border-radius: 5px; */
+  border: 1px solid #e7746e;
+  background-repeat: no-repeat;
+  background-color: #000;
+  position: absolute;
+}
+
+.point{
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin-top: -8.5px;
+  margin-left: -8.5px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}

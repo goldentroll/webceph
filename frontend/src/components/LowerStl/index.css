@@ -1,0 +1,17 @@
+
+.edit-image-panel-lower{
+  height: 540px!important;
+}
+.edit-image-panel-lower > img {
+  height: 100%;
+}
+.image-editor-canvas-lower{
+  width: 952px;
+  height: 540px;
+  background-size: auto 100%;
+  border-radius: 5px;
+  border: 5px solid #e7746e;
+  background-repeat: no-repeat;
+  background-color: #000;
+  position: absolute;
+}
